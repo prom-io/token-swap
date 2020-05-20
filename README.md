@@ -9,7 +9,7 @@
 
 This module will perform a token swap: a process by which PROM token is exchanged for the internal token of Distributed Data Storage (DDS).
 
-Actually, current version of DDS is based on the fork of Sia. It has it’s own internal tokens, which circulate through the system. So anytime when we need to store the file into DDS, we need to pass some internal DDS tokens to the node, which we work with (to pay for the storage services). 
+Actually, current version of token swap is oriented to the fork of Sia. It has it’s own internal tokens, which circulate through the system. So anytime when we need to store the file into DDS, we need to pass some internal DDS tokens to the node, which we work with (to pay for the storage services). BTT will be implemented later.
 
 Prometeus would later consider other platforms for DDS, but either way, token swap procedure will be necessary during the data storage transactions.
 
